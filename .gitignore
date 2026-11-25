@@ -1,0 +1,17 @@
+# Build outputs and CMake cache
+build/
+.cache/
+compile_commands.json
+
+# Compiled binaries and profiling artifacts
+*.o
+*.a
+*.so
+*.out
+perf.data*
+vgcore.*
+
+# Editor swap files
+*.swp
+*.swo
+*~

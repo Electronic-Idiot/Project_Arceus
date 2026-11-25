@@ -1,0 +1,15 @@
+{
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "clangd.arguments": [
+    "--compile-commands-dir=${workspaceFolder}/build/sanitize",
+    "--background-index",
+    "--clang-tidy",
+    "--header-insertion=never"
+  ],
+  "cmake.configureOnOpen": false,
+  "cmake.useCMakePresets": "always",
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": false,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true
+}
